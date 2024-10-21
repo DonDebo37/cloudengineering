@@ -1,7 +1,0 @@
-AWSTemplateFormatVersion: '2010-09-09'
-Description: 'cloudformation template for s3 Bucket'
-Resources:
-  S3Bucket:
-    Type: 'AWS::S3::Bucket'
-    Properties:
-      BucketName: 'adebola-s3-bucket-yaml'
